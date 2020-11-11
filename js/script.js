@@ -42,4 +42,4 @@ if (età < 18) {
   prezzoFinale= prezzo;
   console.log(prezzoFinale);
 }
-document.getElementById("treno").innerHTML= prezzoFinale;
+document.getElementById("treno").innerHTML= prezzoFinale.toPrecision (3);
